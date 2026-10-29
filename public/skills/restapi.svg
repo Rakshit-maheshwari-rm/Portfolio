@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="apiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="34" width="208" height="188" rx="28" fill="url(#apiGrad)" fill-opacity="0.1" stroke="url(#apiGrad)" stroke-width="8"/>
+  <path d="M68 92h120M158 64l30 28-30 28" fill="none" stroke="#06b6d4" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 164H68M98 136l-30 28 30 28" fill="none" stroke="#3b82f6" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="83" y="108" width="90" height="40" rx="10" fill="#0f172a" stroke="url(#apiGrad)" stroke-width="4"/>
+  <text x="128" y="135" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#38bdf8" letter-spacing="2">REST</text>
+</svg>
