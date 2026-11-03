@@ -59,13 +59,13 @@ function Contact() {
                             <div className="contact-icon-box">
                                 <i className="fa-solid fa-envelope"></i>
                             </div>
-                            <div className="me-2">
+                            <div className="contact-card-info flex-grow-1 min-w-0">
                                 <span className="contact-card-label">Email</span>
-                                <a href="mailto:rakshit4713@gmail.com" className="contact-card-value text-decoration-none d-block">
+                                <a href="mailto:rakshit4713@gmail.com" className="contact-card-value text-decoration-none d-block text-truncate">
                                     rakshit4713@gmail.com
                                 </a>
                             </div>
-                            <button type="button" onClick={handleCopyEmail} className="btn btn-copy ms-auto d-flex align-items-center gap-1 rounded-pill px-3 py-1">
+                            <button type="button" onClick={handleCopyEmail} className="btn btn-copy flex-shrink-0 d-flex align-items-center gap-1 rounded-pill px-2 px-sm-3 py-1">
                                 {copied ? (
                                     <>
                                         <i className="fa-solid fa-check text-success"></i>

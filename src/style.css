@@ -786,7 +786,23 @@ body {
    }
 
    .contact-card {
-      padding: 14px 14px;
+      padding: 12px 14px;
+      gap: 12px;
+   }
+
+   .contact-icon-box {
+      width: 44px;
+      height: 44px;
+      font-size: 18px;
+   }
+
+   .contact-card-value {
+      font-size: 13.5px;
+   }
+
+   .btn-copy {
+      font-size: 11px;
+      padding: 3px 8px !important;
    }
 
    .contact-form-card {
