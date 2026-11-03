@@ -44,6 +44,12 @@
    --bs-link-hover-color: var(--accent-light);
 }
 
+html,
+body {
+   overflow-x: hidden;
+   width: 100%;
+}
+
 html {
    scroll-behavior: smooth;
    scroll-padding-top: 100px;
@@ -735,9 +741,80 @@ body {
 }
 
 @media (max-width: 576px) {
+   .navbar {
+      margin-left: 12px !important;
+      margin-right: 12px !important;
+   }
+
    .exp-det-badge {
       font-size: 11px;
       padding: 4px 8px;
+   }
+
+   .text-60 {
+      font-size: 32px;
+      line-height: 1.2;
+   }
+
+   .sub-head {
+      font-size: 24px;
+   }
+
+   .avatar-container {
+      width: 200px;
+      height: 200px;
+   }
+
+   .avatar-container::before {
+      inset: -8px;
+   }
+
+   .skill-box {
+      width: calc(50% - 10px) !important;
+      min-width: 135px;
+      height: 140px;
+      padding: 10px;
+   }
+
+   .skill-box img {
+      width: 60px;
+      height: 60px;
+   }
+
+   .skill-box p {
+      font-size: 0.85rem;
+   }
+
+   .contact-card {
+      padding: 14px 14px;
+   }
+
+   .contact-form-card {
+      padding: 22px 16px;
+   }
+
+   .contact-submit-btn {
+      padding: 11px 18px;
+      font-size: 14px;
+   }
+
+   .project-filter-btn {
+      padding: 6px 14px;
+      font-size: 12px;
+   }
+
+   .profile-img-2 {
+      height: auto;
+      max-height: 380px;
+   }
+
+   .status-pill {
+      max-width: 100%;
+      text-align: left;
+   }
+
+   .status-text {
+      font-size: 11.5px;
    }
 }
 
