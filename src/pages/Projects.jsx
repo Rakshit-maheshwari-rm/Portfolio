@@ -3,11 +3,11 @@ import { useState } from "react";
 const initialProjects = [
     {
         id: 1,
-        title: "BookEase",
+        title: "BookEase – AI-Powered Rental Platform",
         image: "/projects/bookease.png",
-        badges: ["Full Stack", "React.js", "Node.js", "Express.js", "MongoDB", "Razorpay"],
-        category: ["React", "Node.js", "Full Stack"],
-        description: "Full-stack rental property booking platform featuring secure JWT authentication, role-based authorization, dynamic room pricing, Cloudinary asset pipelines, and seamless Razorpay payment gateway integration.",
+        badges: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini AI", "Razorpay"],
+        category: ["React", "Node.js", "Full Stack", "AI"],
+        description: "Full-stack rental platform with guest, host and admin portals, 5 Gemini AI features (search, review summaries, itineraries, listing copy, pricing), HMAC-verified Razorpay payments, and ACID-safe host payouts.",
         demoPill: "1-Click Demo Login Available on Site",
         githubUrl: "https://github.com/Rakshit-maheshwari-rm/BookEase",
         liveDemoUrl: "https://bookease-omur.onrender.com"
@@ -54,7 +54,7 @@ const initialProjects = [
     }
 ];
 
-const categories = ["All", "Full Stack", "React.js", "Node.js", "Tailwind CSS", "Bootstrap"];
+const categories = ["All", "Full Stack", "AI", "React.js", "Node.js", "Tailwind CSS", "Bootstrap"];
 
 function Projects() {
     const [projects] = useState(initialProjects);
