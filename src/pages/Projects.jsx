@@ -74,7 +74,7 @@ function Projects() {
                 const normFilter = activeCategory.toLowerCase().replace(/[\s\-_.]/g, "");
                 return project.badges.some(b => {
                     const normBadge = b.toLowerCase().replace(/[\s\-_.]/g, "");
-                    return normBadge.includes(normFilter);
+                   return normBadge === normFilter;
                 });
             }
             return false;
