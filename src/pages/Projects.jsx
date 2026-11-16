@@ -3,7 +3,7 @@ import { useState } from "react";
 const initialProjects = [
     {
         id: 1,
-        title: "BookEase – AI-Powered Rental Platform",
+        title: "BookEase – AI Powered Rental Platform",
         image: "/projects/bookease.png",
         badges: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini AI", "Razorpay"],
         category: ["React", "Node.js", "Full Stack", "AI"],
